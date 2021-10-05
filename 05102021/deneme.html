@@ -1,0 +1,86 @@
+<html>
+<body>
+<center>
+<table border=1 bgcolor=darkgray >
+<form action="kaydet.html" method="post"><!form içine action ve method kullanılır action formun gönderileceği sayfadır. method'da ise get ve post kullanılır, post bilgileri gizli get ise açıktan yollar>
+<tr><td colspan="2" align="center" bgcolor=darkgray><font color=blue><h3>Personelin</h3></font>
+<tr>
+  <td>Ad Soyad
+  <td><input type="text" name="adsoyad" size="20">
+</tr>
+<tr>
+   <td>Görevi
+   <td><input type="text" name="gorev" size="20">
+</tr>
+<tr> 
+   <td>Tc No
+   <td><input type="text" name="tcno" size="20" maxlength="11">
+</tr>
+<tr>
+  <td>Kullanıcı Adı
+  <td><input type="text" name="kulladi" size="20" maxlength="10">  
+</tr>
+<tr>
+  <td>Şifre
+  <td> <input type="password" name="sifre" size="20" placeholder="harf, rakam ve özel karafkterler" maxlength="10">
+</tr>
+<tr>
+  <td>Bildiği Diller<!Eğer yd1 yani "name" aynı olursa formu göndermede sıkıntı olabilir>
+  <td><input type="checkbox" name="yd1" value="ing">İngilizce<br>
+  <input type="checkbox" name="yd2" value="krc">Korece<br>
+  <input type="checkbox" name="yd3" value="alm">Almanca<br>
+  <input type="checkbox" name="yd4" value="fr">Fransızca<br>
+  </tr>
+  <tr>
+  <td>Cinsiyet
+  <td><input type="radio" name="cinsi">Erkek
+      <input type="radio" name="cinsi">Kadın
+	  </tr>
+	  <tr>
+	  <td>Mezuniyet
+	  <td><input type="radio" name="mez">İlkokul
+	  <input type="radio" name="mez">Ortaokul<br>
+	  <input type="radio" name="mez">Lise
+	  <input type="radio" name="mez">Üniversite
+	  </tr>
+	  
+	   <tr align=center colspan=2>
+	    <td align=center colspan=2><input type="submit" value="Kaydet">
+		<input type="reset" value="Temizle">
+	  </tr>
+	  <tr>
+	   <td align=center colspan=2> <input type="button" value="bn tıkla"
+	   onclick="alert('Nasılsın'); >
+	  </tr>
+	  <tr>
+	   <td align=center colspan=2> <input type="color">
+	  </tr>
+	  <tr>
+	   <td align=center colspan=2> <input type="date">
+	  </tr>
+	  <tr>
+	   <td align=center colspan=2> <input type="file">
+	   </tr>
+	   <tr>
+	   <td align=center colspan=2> <input type="range">
+	   </tr>
+	   <tr>
+	  <td> Adres
+	   <td align=center><textarea placeholder="Adresinizi giriniz." rows=4 cols=25>
+	   
+	    </textarea>
+	</tr>
+	<tr>
+	<td>Doğum Yeriniz
+	<td><select>
+	<option>Ankara
+	<option>İzmir
+	<option>İstanbul
+	<option>Antalya
+	</select>
+	
+</form>
+</table>
+</center>
+</body>
+</html>

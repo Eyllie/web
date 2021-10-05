@@ -1,0 +1,101 @@
+<html>
+<body>
+<center>
+<table border=1 bgcolor=#DCDCDC >
+<form action="kayit.html" method="post"><!gizli olacak>
+<tr><td colspan="2" align="center" bgcolor=#DCDCDC><font color=darkbrown><h3>Kullanıcı Kaydı</h3></font>
+
+
+<tr>
+  <td>Kullanıcı Adı
+  <td><input type="text" name="kulladi" size="20" maxlength="10">  
+</tr>
+<tr>
+<td>Mail Adresiniz
+<td><input type="email" maxlength="55">
+</tr>
+<tr>
+  <td>Şifre
+  <td> <input type="password" name="sifre" size="20" maxlength="6">
+</tr> 
+<tr>
+  <td>Şifre (Yenile)
+  <td> <input type="password" name="sifre" size="20" placeholder="harf, rakam ve özel krk." maxlength="6">
+</tr> 
+<tr>
+  <td>Ad Soyad
+  <td><input type="text" name="adsoyad" size="20" maxlength="50">
+</tr>
+<tr><td>Doğum Yeri
+<td><select>
+<option>Ankara
+<option>İzmir
+<option>İstanbul
+<option>Antalya
+<option>Konya
+</tr>
+<tr><td>Doğum Tarihi
+<td><input type="date" >
+</tr>
+<tr><td>Cinsiyet
+<td ><input type="radio" name="cins" value="erk">Erkek<br>
+<input type="radio" name="cins" value="kad">Kadın
+</tr>
+<tr>
+  <td>Bildiği Diller
+  <td><input type="checkbox" name="yd1" value="ing">İngilizce<br> 
+<input type="checkbox" name="yd2" value="krc">Korece<br>
+<input type="checkbox" name="yd3" value="alm">Almanca<br> 
+<input type="checkbox" name="yd4" value="fr">Fransızca<br>
+<input type="checkbox" name="yd4" value="fr">Fransızca<br>
+<input type="checkbox" name="yd5" value="rs">Rusca<br>
+  </tr>
+  <tr>
+  <td>Adres
+   <td align=center><textarea  rows=3 cols=30  maxlength="50" > 
+	    </textarea></tr>
+<tr>
+<td>Resim Yükle
+<td><input type="file">
+</tr>
+<tr>
+<td>Sevdiğiniz rengi seçiniz
+<td align=center><input type="color">
+</tr>
+
+<tr>
+<td>Hobileriniz
+<td><input type="checkbox" name="hb1" value="spor">Spor<br>
+<input type="checkbox" name="hb2" value="tytr">Tiyatro<br>
+<input type="checkbox" name="hb3" value="pc">PC<br>
+<input type="checkbox" name="hb4" value="snm">Sinema
+</tr>
+<tr>
+<td>Site Adresinizi
+<td><input type=url name=site>
+</tr>
+<tr>
+<td>Medeni Haliniz
+<td><input type="radio" name="med" value="dul">Dul<br>
+<input type="radio" name="med" value="evli">Evli<br>
+<input type="radio" name="med" value="bkr">Bekar
+</tr>
+ <tr>
+	  <td>Mezuniyetiniz
+	  <td><input type="radio" name="mez">İlkokul<br>
+	  <input type="radio" name="mez">Ortaokul<br>
+	  <input type="radio" name="mez">Lise<br>
+	  <input type="radio" name="mez">Üniversite<br>
+	  <input type="radio" name="mez">Yüksek Lisans
+	  </tr>
+	<tr colspan=2>
+	<td align=center > <input type="submit" value="Kaydet">
+    <input type="reset" value="Temizle"><br>
+	<input type="button" value="Ne yaparsan yap">
+	
+   </tr>
+</body>
+</form>
+</table>
+</center>
+</html>
