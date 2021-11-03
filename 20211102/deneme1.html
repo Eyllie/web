@@ -2,85 +2,81 @@
 <head>
 <style>
 	.kapsayici{
-	background-color:black;
+	background-color:lightgray;
 	width:1200px;
 	height:600px;
 	padding:10px;
-	border-radius:10px;
-	box-shadow:10px 10px 10px gray;
+	border-radius:20px;
+	box-shadow:15px 15px 15px gray;
+	border:1px solid black;
 	}
 	.banner{
-	background-color:pink;
+	
 	height:100px;
 	margin:10px 10px 10px 10px;
+	padding:10px;
+	border-radius:30px;
 	}
 	.ymenu{
-	background-color:pink;
-	border-radius:20px;
+	background-color:lightblue;
 	height:40px;
 	margin:10px 10px 10px 10px;
-	border-radius:20px;
 	}
 	.dmenu{
-	background-color:pink;
+	background-color:lightblue;
 	width:150;
-	height:400;
-	margin:0px 10px 10px 10px;
+	height:350;
+	margin:10px 10px 10px 10px;
 	float:left;
-	border-radius:20px;
 	}
 	.icerik{
-	background-color:pink;
+	background-color:lightblue;
 	width:860;
-	height:400;
-	margin:0px 0px 10px 0px;
+	height:350;
+	margin-right:10px;
+	margin-bottom:10px;
 	float:left;
-	border-radius:20px;
 	}
 	.reklam{
-	background-color:pink;
+	background-color:lightblue;
 	width:150;
-	height:400;
+	height:350;
 	margin:0px 10px 10px 0px;
 	float:right;
-	border-radius:20px;
+	
 	}
 	.footer{
-	background-color:pink;
-	height:20px;
-	width:1180;
+	background-color:lightblue;
+	height:30px;
+	color:red;
+	font-style:italic;
 	margin-bottom:10px;
 	clear:both;
-	color:red;
-	padding:1px;
-	text-shadow:3px 3px 3px black;
-	border-radius:3px;
+
 	}
 	.ymenu a{
-	width:200px;
-	height:20px;
 	display:block;
-	font-familiy:'comic sans ms';
+	width:200px;
+	font-family:'comic sans ms';
 	font-size:15pt;
 	text-decoration:none;
-	background-color:black;
+	background-color:gray;
 	float:left;
-	margin:0px 5px 0px 5px;
-	padding:5px;
-	border-radius:10px;
-	box-shadow:3px 3px white;
+	margin:0px 7px 0px 7px;
+	padding:2px;
+	border-radius:30px;
+	box-shadow:5px 5px black;
 	}
 	.dmenu a{
 	display:block;
-	font-familiy:'comic sans ms';
+	font-family:'comic sans ms';
 	font-size:15px;
 	text-decoration:none;
-	background-color:black;
-	margin:4px;
-	padding:13px;
-	border-radius:10px;
-	box-shadow:4px 4px  white;
-	
+	background-color:gray;
+	margin:10px;
+	padding:10px;
+	border-radius:20px;
+	box-shadow:3px 3px black;
 	}
 	a:hover{
 	background-color:red
@@ -88,24 +84,12 @@
 	a{
 	color:white
 	}
-	.banner img{
-	border-radius:10px;
-	position:absolute;
-	top:40;
-	right:101;
-	}
-	iframe{
-	border-radius:10px;
-	}
-	marquee{
-	border-radius:20px;
-	}
 </style>
 </head>
-<body bgcolor=#fea4bd>
+<body>
 <center>
 	<div class="kapsayici" >
-	<div class="banner"><img src="indir.png"></div>
+	<div class="banner"><img src="banner.jpg" style=border-radius:30px ></div>
 	<div class="ymenu">
 	<a href="#">Ana Sayfa</a>
 	<a href="#">Hakkımızda</a>
@@ -121,22 +105,17 @@
 	<a href="#">İletişim</a>
 	</div>
 	<div class="icerik">
-	<iframe name="cerceve" src="blackpink.jpg" width=100% height=100%>
-	</iframe>
+	<iframe name="cerceve" src="cerceve.jpg" height=100% width=100%></iframe></div>
+	<div class="reklam"><marquee width=100% height=100% direction=up behavior=alternate>
+	<img src="r1.jpg"><br>
+	<img src="r2.jpg"><br>
+	<img src="r3.jpg"><br>
+	<img src="r4.jpg"><br>
+	<img src="r5.jpg"><br>
+	<img src="r6.jpg"></marquee>
 	</div>
-	<div class="reklam"><marquee direction=up behavior=alternate width=150 height=400>
-	
-	<img src="star.jpg">
-	<img src="pepsi.jpg">
-	<img src="queen.jpg">
-	
-
-	
-	</marquee>
-	</div>
-	
-	<div class="footer"><marquee direction=right behavior=alternate><i>SİNCAN BİST MESLEKİ VE TEKNİK ANADOLU LİSESİ BİLİŞİM TEKNOLOJİLERİ ALANI</i></marquee> </div>
-
+	<div class="footer"><marquee width=100% height=100% behavior=alternate>
+	SİNCAN BİST MESLEKİ VE TEKNİK ANADOLU LİSESİ BİLİŞİM TEKNOLOJİLERİ ALANI</marquee></div></div>
 </center>
 </body>
 </html>
